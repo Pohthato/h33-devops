@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Tree wiki</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Overlock:wght@700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="main">
+
+    <div class="title">
+        <h1>The Tree Encyclopedia</h1>
+    </div>
+    <div class="container">
+
+        <div class="index">
+            <h3>Index</h3>
+            <p><button id="oak">Oak</button></p>
+            <p><button id="beech">Beech</button></p>
+
+        </div>
+        <div class="content">
+            <iframe id="i_content" src="oak_content.html"
+                    width="1000px" 
+                    >
+            </iframe>
+        </div>
+        <div class="summary">
+            <iframe  id="i_summary" src="oak_summary.html">
+            </iframe>
+        </div>
+
+    </div>
+
+
+
+    </div>
+
+
+    <script>
+        $("#oak").click(function(){
+            $("#i_content").attr("src","oak_content.html");
+            $("#i_summary").attr("src","oak_summary.html");
+        })
+        $("#beech").click(function(){
+
+
+        })
+
+        /* This will not be merged !  */
+
+
+    </script>
+</body>
+</html>

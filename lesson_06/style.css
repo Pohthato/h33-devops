@@ -1,0 +1,126 @@
+body{
+  background-color: #e7e9f2;
+  background-image: url("img/bg.jpg");
+  background-size: cover;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.container{
+  position: relative;
+  width: 1200px;
+  margin: auto;
+}
+
+.navbar{
+  font-size: 24px;
+  padding-top: 10px;
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-button{
+  border-radius: 5px;
+  color: black;
+  margin: 20px;
+}
+
+.selected {
+  border-bottom:3px solid #7594ec;
+  border-radius: none;
+}
+
+.logo {
+  flex-grow: 1;
+  margin: 20px;
+  text-align: left;
+}
+
+.main{
+  background-color: white;
+  min-height: 700px;
+  margin-top: 10px;
+  color: black;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.page-image{
+  position: absolute;
+  width: 600px;
+  right: 10px;
+  top: 200px;
+}
+
+.banner{
+  margin-bottom: 20px;
+}
+
+.title{
+  font-size: 80px;
+  margin-left: 60px;
+  padding-top: 100px;
+  width: 600px;
+}
+
+.subtitle{
+  font-size: 18px;
+  margin-left: 60px;
+  margin-top: 40px;
+  font-family: 'Lato', sans-serif;
+  max-width: 470px;
+  line-height:1.7;
+}
+
+.header1{
+  font-size: 80px;
+  width: 600px;
+  text-align: center;
+  margin:auto;
+  padding-top:80px;
+  font-weight:normal;
+}
+.header{
+  font-size:50px;
+}
+
+.text1{
+  font-size: 14px;
+}
+
+.team-members{
+  display:flex;
+  justify-content:center;
+}
+
+.member{
+  width: 180px;
+  display:inline-block;
+  margin: 20px;
+  text-align: center;
+  border: #7594ec solid 2px;
+  border-radius: 15px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.member-pic{
+  height: 200px;
+}
+
+@media (max-width: 1000px){
+  .navbar{
+    float: left;
+  }
+  .logo{
+    display: none;
+  }
+ }
+
+
+ 
